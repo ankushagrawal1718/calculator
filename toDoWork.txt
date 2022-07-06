@@ -1,3 +1,4 @@
 Enter button work as '='
 % button is not working currently it should work
 
+we can easily complete this work here
