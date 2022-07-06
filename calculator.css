@@ -5,9 +5,11 @@
     margin: 40px auto;
     padding: 20px;
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid black;    
 }
-
+button:hover{
+    background-color: #b8b8b8;
+}
 #heading{
     background-color: rgb(245, 136, 35);
     text-align: center;
