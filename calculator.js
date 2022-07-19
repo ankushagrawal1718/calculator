@@ -11,11 +11,14 @@ for(item of buttons){
             display.value = "0";
         }
         else if(buttonText == '←'){
-            if(display.value = "Invalid Expression"){
-                display.value ="0"; 
+        //    console.log(display.value,"Invalid Expression");
+            if(display.value == "Invalid Expression"){
+                display.value = "0"; 
             }
             else{
+                console.log(buttonText,"ankush");
                 display.value = display.value.slice(0,-1);
+                console.log(display.value);
             }
             
         }
