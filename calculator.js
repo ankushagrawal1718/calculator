@@ -58,6 +58,9 @@ for(item of buttons){
             }
         }
         else{
+            if(display.value == "Invalid Expression"|| display.value == "Infinity" || display.value == "NaN"){
+                display.value= "";
+            }
             display.value += buttonText;
         }
         
