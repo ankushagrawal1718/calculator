@@ -1,4 +1,4 @@
-console.log("hey calculator is working ");
+// console.log("hey calculator is working ");
 var buttons = document.getElementsByTagName('button');
 var display = document.getElementById('result');
 display.value = "0";
